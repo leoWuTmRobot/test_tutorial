@@ -24,7 +24,7 @@ author = 'leo'
 # The full version, including alpha/beta/rc tags
 release = 'v1'
 
-
+master_doc = 'index'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
