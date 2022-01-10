@@ -1,1 +1,2 @@
-$python3 -m pip freeze > requirements.txt
+ pip3 install recommonmark
+ pip3 install sphinx_markdown_tables
