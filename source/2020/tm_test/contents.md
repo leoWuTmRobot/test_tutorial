@@ -198,7 +198,7 @@ Enable the `Data Table Setting` item and check the following boxes as item prede
 > :bulb: Before going through the following steps, please build the TM ROS Vision driver node on your (remote) computer and then connect this (remote) computer to the local TM Robot computer.
 >
 > 1. Create a _Vision task_ project of __TMflow__ software, and then drag the __Vision node__  from the _nodes menu_ onto the project flow, as shown below.<br/>
-> ![create_a_vision_task](figures/create_a_vision_task.png)
+> ![](figures/create_a_vision_task.png)
 > 2. Click the __AOI -only__ icon, and then follow the steps below to handle some settings related to accessing TM Robot HMI.<br/>
 > ![choose_aoi_only](figures/choose_aoi_only.png)
 >
