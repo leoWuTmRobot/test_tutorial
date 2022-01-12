@@ -200,16 +200,16 @@ Enable the `Data Table Setting` item and check the following boxes as item prede
 > 1. Create a _Vision task_ project of __TMflow__ software, and then drag the __Vision node__  from the _nodes menu_ onto the project flow, as shown below.<br/>
 > ![](figures/create_a_vision_task.png)
 > 2. Click the __AOI -only__ icon, and then follow the steps below to handle some settings related to accessing TM Robot HMI.<br/>
-> ![choose_aoi_only](figures/choose_aoi_only.png)
+> ![](figures/choose_aoi_only.png)
 >
 >    TMflow 1.76 second version only:<br/> 
 > If no suitable dongle is detected, warning alerts will be displayed in the window.<br/>
-> ![open_need_dongle_key](figures/open_need_dongle_key.png)
+> ![](figures/open_need_dongle_key.png)
 > TMflow 1.80 version: <br/>
 > The user don't need dongle to activate this function.
 >
-> 3. Click the __Find__ icon.
-> ![select_find](figures/select_find.png)
+> 3. Click the __Find__ icon.  bbbb
+> ![select_aaaaa_find](figures/select_find.png)
 >
 > 4. In TMflow 1.76 second version, click the __AI_Detection__ icon.<br/>
 > ![choose_ai_detection_only](figures/choose_ai_detection_only.png)
