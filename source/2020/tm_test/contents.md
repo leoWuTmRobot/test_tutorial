@@ -14,10 +14,10 @@ If the user want to know how to use ROS1 driver, please go to [TM ROS1 driver](h
 More information: TM ROS driver support list
 | ROS Distribution (ROS Environment Setup) | TM ROS driver version | TM ROS Vision | Remark: switch GitHub branches |
 | :--: | :--: | :--: | :--: |
-| [**<font color=#808080>ROS Noetic Ninjemys**](http://wiki.ros.org/noetic) | [**<font color=#0000FF>TM ROS1 Noetic driver**](https://github.com/TechmanRobotInc/tmr_ros1/tree/noetic)|x|noetic |
-| [**<font color=#808080>ROS Melodic Morenia**](http://wiki.ros.org/melodic) | [**<font color=#0000FF>TM ROS1 Melodic driver**](https://github.com/TechmanRobotInc/tmr_ros1/)|x|master |
-|[**<font color=#808080>ROS 2 Foxy Fitzroy**](https://index.ros.org/doc/ros2/Releases/Release-Foxy-Fitzroy/)|[**<font color=#800000>TM ROS2 Foxy driver**](https://github.com/TechmanRobotInc/tmr_ros2)|supported|master|
-|[**<font color=#808080>ROS 2 Dashing Diademata**](https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/)|[**<font color=#800000>TM ROS2 Dashing driver**](https://github.com/TechmanRobotInc/tmr_ros2/tree/dashing-devel)|supported|dashing-devel|
+| [ROS Noetic Ninjemys](http://wiki.ros.org/noetic) | [TM ROS1 Noetic driver](https://github.com/TechmanRobotInc/tmr_ros1/tree/noetic)|x|noetic |
+| [ROS Melodic Morenia](http://wiki.ros.org/melodic) | [TM ROS1 Melodic driver](https://github.com/TechmanRobotInc/tmr_ros1/)|x|master |
+|[ROS 2 Foxy Fitzroy](https://index.ros.org/doc/ros2/Releases/Release-Foxy-Fitzroy/)|[TM ROS2 Foxy driver](https://github.com/TechmanRobotInc/tmr_ros2)|supported|master|
+|[ROS 2 Dashing Diademata](https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/)|[TM ROS2 Dashing driver](https://github.com/TechmanRobotInc/tmr_ros2/tree/dashing-devel)|supported|dashing-devel|
 
 Note: The two current master branches are ROS1 Melodic and ROS2 Foxy.<br/>
 
@@ -41,12 +41,12 @@ The user can directly refer to the chapters introduced in the following text: st
 > 1. Create a _Listen task_ of flow project of __TMflow__ software, and then drag the __Listen node__ from the _nodes menu_ onto the project flow, as shown below.
 > [![1](figures/1.png)](https://www.youtube.com/watch?v=LuKE2wVNn5Y)
 >
-> 2. Set the `Network` settings: mouse-click to enter the page of __System &rArr; Network__ in order.  
-Example: Set the Subnet mask: 255.255.255.0 and IP address 192.168.10.2  
-Note: Set the network mask, and the communication with the TM Robot must be in the set domain.  
+> 2. Set the `Network` settings: mouse-click to enter the page of __System &rArr; Network__ in order.
+Example: Set the Subnet mask: 255.255.255.0 and IP address 192.168.10.2 
+Note: Set the network mask, and the communication with the TM Robot must be in the set domain.
 > ![2](figures/2.png)
 >
-> 3. Set the __Ethernet Slave Data Table__ settings: mouse-click to enter the page of __Setting &rArr; Connection &rArr; Ethernet Slave__ in order.   
+> 3. Set the __Ethernet Slave Data Table__ settings: mouse-click to enter the page of __Setting &rArr; Connection &rArr; Ethernet Slave__ in order.
 Enable the `Data Table Setting` item and check the following boxes as item predefined to receive/send specific data:
 >
 >       - [x] Robot_Error
@@ -86,9 +86,13 @@ Enable the `Data Table Setting` item and check the following boxes as item prede
 > Static IP of remote connection network settings through the wired network .<br/> 
 >
 > 1. Set the wired network of the user's (remote) Ubuntu computer by mouse-click on the top right of the desktop &rArr; Click on "Wired Settings" &rArr; Click on the gear icon &rArr; In the IPv4 feature options, click on "Manual" in order.<br/> 
+
 > ![user_remote_network_settings](figures/user_remote_network_settings.png)
-> 2. Set the Static IP settings: where the IP address is fixed for the first three yards same as the previous setting 192.168.10, last yards 3-254 machine numbers are available. (Because _TM ROBOT_, you have been set to 192.168.10.2 )<br/> 
-> Example: Set the Netmask: 255.255.255.0 and IP address 192.168.10.30  <br/> 
+
+> 2. Set the Static IP settings: where the IP address is fixed for the first three yards same as the previous setting 192.168.10, last yards 3-254 machine numbers are available. (Because _TM ROBOT_, you have been set to 192.168.10.2 ) <br/>
+
+> Example: Set the Netmask: 255.255.255.0 and IP address 192.168.10.30 <br/>
+
 > ![user_remote_IP_example](figures/user_remote_IP_example.png)
 > 3. Check Internet connection: start a terminal to test the connectivity with the target host _TM ROBOT_, by typing ping 192.168.10.2
 > ![ping_target_host.png](figures/ping_target_host.png)
