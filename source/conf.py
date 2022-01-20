@@ -61,6 +61,8 @@ html_logo = '_static/logo.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+latex_docclass = {'mydocument': 'jsbook'}
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
